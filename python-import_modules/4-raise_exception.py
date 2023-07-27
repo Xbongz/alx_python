@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-raise TypeError("It is a type error")
+raise TypeError("this is a type error")
