@@ -2,5 +2,5 @@
 class Square:
     def __init__(self, size):
         self.__size = size
-my_square = Square(89)
+my_square = Square()
 print(my_square._Square__size)
