@@ -5,3 +5,7 @@ class Square:
 
 square = Square(3)
 print(type(square), '\n', square.__dict__)
+print(type(square))
+square.__size = 89
+print(type(square))
+print(square.__dict__)
