@@ -3,7 +3,7 @@ class Square:
     """The class representing the square.
 
     Attributes:
-        size (int): parameters of the square size.
+        __size (int): parameters of the square size.
     """
 
     def __init__(self, size):
@@ -14,9 +14,10 @@ class Square:
         """
         self.__size = size
     
-    def get_size(self):
-        """Return square size."""
-        return self.__size
+    def area(self):
+        """Return the area of the square."""
+        return self.__size ** 2
     
-square = Square(3)
-print(type(square), '\n', square.__dict__, '\n', square.get_size())
+    def perimeter(self):
+        """Return peremeter of the square."""
+        return self.__size * 4
