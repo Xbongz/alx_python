@@ -14,4 +14,4 @@ class Square:
         """
         self.__size = size
 square = Square(3)
-print(type(square), '\n', square.__dict__)
+print(type(square), '\n', square.__dict__, '\n', square.size)
