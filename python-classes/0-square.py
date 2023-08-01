@@ -14,10 +14,7 @@ class Square:
         """
         self.__size = size
     
-    def area(self):
-        """Return the area of the square."""
-        return self.__size ** 2
-    
-    def perimeter(self):
-        """Return peremeter of the square."""
-        return self.__size * 4
+    @property
+    def dict(self):
+        """Return dictionary for the square."""
+        return {'size': self.__size}
