@@ -7,3 +7,6 @@ class Square:
         """"To initialise the created square instance.
         """
         self.__size = size # Assign private instance attribute
+
+square = Square(3)
+print(square)
