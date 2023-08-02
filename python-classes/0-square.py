@@ -8,5 +8,9 @@ class Square:
         """
         self.__size = size # Assign private instance attribute
 
-square = Square(3)
+    def __str__(self):
+        """return string from the square"""
+        return "<class '{}'>\n{{'_{}__size': {}}}".format(self.__class__.__name__, self.__size)
+
+square = Square
 print(square)
