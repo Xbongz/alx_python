@@ -19,7 +19,4 @@ class Square:
     
     def area(self):
         """public instance for area"""
-
-        if self.__size == 0:
-            raise ValueError("size must be 0")
         return self.__size * self.__size
