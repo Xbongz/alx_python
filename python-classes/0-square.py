@@ -21,5 +21,5 @@ class Square:
         """
         return "<class '{}'>\n{{'_{}__size': {}}}".format(self.__class__.__name__, self.__size)
 
-square = Square
+square = Square(3)
 print(square)
