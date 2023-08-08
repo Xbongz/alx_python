@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Module for class Rectangle that inherits from Base"""
 
-from base import Base
 """To import the base file import the class Base"""
+from base import Base
 
 """class module that inherits from Base class"""
 class Rectangle(Base):
