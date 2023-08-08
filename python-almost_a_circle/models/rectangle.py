@@ -4,12 +4,13 @@
 from base import Base
 """To import the base file import the class Base"""
 
+"""class module that inherits from Base class"""
 class Rectangle(Base):
     """Defined rectangle class that will inherit from Base class"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """To initialise the attributs """
-        super().__init_(id)
+        super().__init__(id)
         """super to call and use the logic of the init of the Base class"""
         self.__width = width
         self.__height = height
