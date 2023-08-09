@@ -12,10 +12,10 @@ class Rectangle(Base):
         """To initialise the attributs """
         super().__init__(id)
         """super to call and use the logic of the init of the Base class"""
-        self.__width = width
-        self.__height = height
-        self.__x = x
-        self.__y = y
+        Base.__width = width
+        Base.__height = height
+        Base.__x = x
+        Base.__y = y
     
     """To get width instance"""
     @property
@@ -43,22 +43,24 @@ class Rectangle(Base):
     
     """To set instance for width"""
     @width.setter
-    raise ValueError:
+    def width(self, value):
+        """To define the width method"""
         self.__width = value 
     
     """To set instance for height"""
     @height.setter
-    raise ValueError:
+    def height(self, value):
+        """To define the height method"""
         self.__height = value
     
     """To set instance for X"""
     @x.setter
-    raise TypeError:
+    def x(self, value):
         """To define the x method to set"""
         self.__x = value
 
     """To set instance for Y"""
     @y.setter
-    raise TypeError:
-
+    def y(self, value):
+        """to define the y method"""
         self.__y = value
