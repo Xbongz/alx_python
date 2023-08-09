@@ -87,7 +87,7 @@ class Rectangle(Base):
             raise TypeError("x must be an integer")
             """To inform that the input needs to be an integer"""            
             
-        elif value <= 0:
+        elif value < 0:
             """For the given attribute must be <=0"""
             raise ValueError("x must be >= 0")
             """To raise a ValueError is x is not <=0"""
@@ -104,7 +104,7 @@ class Rectangle(Base):
             raise TypeError("y must be an integer")
             """To inform that the input needs to be an integer"""            
         
-        elif value <= 0:
+        elif value < 0:
             """For the given attribute must be >=0"""
             raise ValueError("y must be >= 0")
             """To raise a ValueError is y is not >=0"""
