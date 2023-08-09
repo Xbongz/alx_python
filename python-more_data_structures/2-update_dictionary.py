@@ -5,5 +5,3 @@ def update_dictionary(a_dictionary, key, value):
     return a_dictionary
 
     print(a_dictionary)
-
-print(update_dictionary)
