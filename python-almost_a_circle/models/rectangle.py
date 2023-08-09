@@ -43,24 +43,22 @@ class Rectangle(Base):
     
     """To set instance for width"""
     @width.setter
-    def width(self, value):
-        """To define the width method which to set"""
+    raise ValueError:
         self.__width = value 
     
     """To set instance for height"""
     @height.setter
-    def height(self, value):
-        """To define the height method to set"""
+    raise ValueError:
         self.__height = value
     
     """To set instance for X"""
     @x.setter
-    def x(self, value):
+    raise TypeError:
         """To define the x method to set"""
         self.__x = value
 
     """To set instance for Y"""
     @y.setter
-    def y(self, value):
-        """To define the Y method to set"""
+    raise TypeError:
+
         self.__y = value
