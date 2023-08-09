@@ -2,8 +2,8 @@
 
 def update_dictionary(a_dictionary, key, value):
     a_dictionary[key] = value
-    return value
+    return a_dictionary
 
-    print(value)
+    print("value")
 
 print(update_dictionary)
