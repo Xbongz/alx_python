@@ -11,6 +11,5 @@ def square_matrix_simple(matrix=[]):
         my_matrix.append(my_row)
     return my_matrix
 
-new_matrix = square_matrix_simple()
-
-print(new_matrix)
+    new_matrix = square_matrix_simple()
+    print(new_matrix)
