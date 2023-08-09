@@ -46,7 +46,7 @@ class Rectangle(Base):
     def width(self, value):
         """To define the width method"""
 
-        if value is not type(int):
+        if not isinstance(value, int):
             """To raise exception if the input is not an int"""
             raise TypeError("width must an integer")
             """To inform that the input needs to be an integer"""            
@@ -66,7 +66,7 @@ class Rectangle(Base):
     def height(self, value):
         """To define the height method"""
         
-        if value is not type(int):
+        if not isinstance(value, int):
             """To raise exception if the input is not an int"""
             raise TypeError("height must an integer")
             """To inform that the input needs to be an integer"""            
@@ -82,7 +82,7 @@ class Rectangle(Base):
     @x.setter
     def x(self, value):
         """To define the x method to set"""
-        if value is not type(int):
+        if not isinstance(value, int):
             """To raise exception if the input is not an int"""
             raise TypeError("x must an integer")
             """To inform that the input needs to be an integer"""            
@@ -99,7 +99,7 @@ class Rectangle(Base):
     def y(self, value):
         """to define the y method"""
         
-        if value is not type(int):
+        if not isinstance(value, int):
             """To raise exception if the input is not an int"""
             raise TypeError("y must an integer")
             """To inform that the input needs to be an integer"""            
