@@ -2,7 +2,7 @@
 """Module for class Rectangle that inherits from Base"""
 
 """To import the base file import the class Base"""
-from base import Base
+from models.base import Base
 
 """class module that inherits from Base class"""
 class Rectangle(Base):
@@ -12,10 +12,10 @@ class Rectangle(Base):
         """To initialise the attributs """
         super().__init__(id)
         """super to call and use the logic of the init of the Base class"""
-        Base.__width = width
-        Base.__height = height
-        Base.__x = x
-        Base.__y = y
+        self.__width = width
+        self.__height = height
+        self.__x = x
+        self.__y = y
     
     """To get width instance"""
     @property
