@@ -110,3 +110,11 @@ class Rectangle(Base):
             """To raise a ValueError is y is not >=0"""
         else:
             self.__y = value
+        
+    def area(self):
+        """To define the area method"""
+        return self.__height * self.__width
+        """Use rectangle area formular"""
+
+a = Rectangle(width=12, height=3)
+print(a.area())
