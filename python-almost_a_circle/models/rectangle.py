@@ -127,4 +127,6 @@ class Rectangle(Base):
             """To display characters '#' as a rectangle"""
 
     def display(self):
+        """To define the display method"""
         return f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}"
+        """To return the string"""
