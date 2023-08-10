@@ -125,3 +125,6 @@ class Rectangle(Base):
             """The instance of characher # range"""
             print("#" * self.__width)
             """To display characters '#' as a rectangle"""
+
+    def display(self):
+        return f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}"
