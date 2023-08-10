@@ -121,7 +121,7 @@ class Rectangle(Base):
     
     def display(self):
         """To define the display public method"""
-        for i in range(self.__height):
+        for _ in range(self.__height):
             """The instance of characher # range"""
             print("#" * self.__width)
             """To display characters '#' as a rectangle"""
