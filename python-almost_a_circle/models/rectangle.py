@@ -137,13 +137,24 @@ class Rectangle(Base):
         """To return the string"""
     
     def update(self, *args):
+        """Public method that assigns an argument to each attribute"""
         if len(args) >= 1:
+            """First argument"""
             self.id = args[0]
+            """ID attribute"""
         if len(args) >= 2:
+            """Second argument"""
             self.width = args[1]
+            """width attribute"""
         if len(args) >= 3:
+            """Third argument"""
             self.height = args[2]
+            """height attribute"""
         if len(args) >= 4:
+            """Fourth argument"""
             self.x = args[3]
+            """x attribute"""
         if len(args) >= 5:
+            """Fifth argument"""
             self.y = args[4]
+            """Y attribute"""
