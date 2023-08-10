@@ -8,7 +8,7 @@ from models.base import Base
 class Rectangle(Base):
     """Defined rectangle class that will inherit from Base class"""
 
-    def __init__(self, width=0, height=0, x=0, y=0):
+    def __init__(self, width=0, height=0, x=0, y=0, id=None):
         """To initialise the attributs """
         super().__init__(id)
         """super to call and use the logic of the init of the Base class"""
@@ -108,6 +108,5 @@ class Rectangle(Base):
             """For the given attribute must be >=0"""
             raise ValueError("y must be >= 0")
             """To raise a ValueError is y is not >=0"""
-        
         else:
             self.__y = value
