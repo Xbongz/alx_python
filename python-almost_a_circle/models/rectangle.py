@@ -12,10 +12,10 @@ class Rectangle(Base):
         """To initialise the attributs """
         super().__init__(id)
         """super to call and use the logic of the init of the Base class"""
-        self.__width = width
-        self.__height = height
-        self.__x = x
-        self.__y = y
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
     
     """To get width instance"""
     @property
