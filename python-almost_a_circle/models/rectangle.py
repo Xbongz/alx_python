@@ -128,5 +128,5 @@ class Rectangle(Base):
 
     def display(self):
         """To define the display method"""
-        return f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}"
+        return f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}"
         """To return the string"""
