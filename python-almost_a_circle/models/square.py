@@ -17,7 +17,7 @@ class Square(Rectangle):
     @property
     def size(self):
         """Public getter Method defining size"""
-        return self.size
+        return self.width
         """To return size """
     
     """Public method setter for size"""
