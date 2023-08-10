@@ -159,7 +159,7 @@ class Rectangle(Base):
             self.y = args[4]
             """Y attribute"""
         
-        for key, value in kwargs.items:
+        for key, value in kwargs.items():
             """**kwargs must be skipped if args exists and not empty"""
             setattr(self, key, value)
             """Set attributes to"""
