@@ -121,9 +121,14 @@ class Rectangle(Base):
     
     def display(self):
         """To define the display public method"""
-        for i in range(self.__height):
+        for i in range(self.__y):
             """The instance of characher # range"""
-            print("#" * self.__width)
+            print()
+            """To dispaly results"""
+        
+        for i in range(self.__height):
+            """To define the range"""
+            print(" " * self.__x + "#" * self.__width)
             """To display characters '#' as a rectangle"""
 
     def __str__(self):
