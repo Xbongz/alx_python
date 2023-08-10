@@ -136,7 +136,7 @@ class Rectangle(Base):
         return f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}"
         """To return the string"""
     
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """Public method that assigns an argument to each attribute"""
         if len(args) >= 1:
             """First argument"""
@@ -158,3 +158,8 @@ class Rectangle(Base):
             """Fifth argument"""
             self.y = args[4]
             """Y attribute"""
+        
+        for key, value in kwargs.items:
+            """**kwargs must be skipped if args exists and not empty"""
+            setattr(self, key, value)
+            """Set attributes to"""
