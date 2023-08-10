@@ -116,5 +116,5 @@ class Rectangle(Base):
         return self.__height * self.__width
         """Use rectangle area formular"""
 
-a = Rectangle(width=12, height=3)
-print(a.area())
+#a = Rectangle(width=12, height=3)
+#print(a.area())
