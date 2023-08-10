@@ -118,3 +118,10 @@ class Rectangle(Base):
 
 #a = Rectangle(width=12, height=3)
 #print(a.area())
+    
+    def display(self):
+        """To define the display public method"""
+        for i in range(self.__height):
+            """The instance of characher # range"""
+            print("#" * self.__width)
+            """To display characters '#' as a rectangle"""
